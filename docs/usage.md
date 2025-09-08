@@ -79,7 +79,7 @@ pyspark --packages io.delta:delta-spark_2.13:4.0.0 \
   --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" \
   --conf "spark.sql.catalog.spark_catalog=org.apache.spark.sql.delta.catalog.DeltaCatalog"
 ```
-* 在另外一个会话窗口 使用jps检查服务是否启动
+* 在另外一个会话窗口 使用jps检查服务是否启动  
 2448 SparkSubmit  
 2553 Jps  
 
