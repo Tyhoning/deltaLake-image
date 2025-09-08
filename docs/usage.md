@@ -72,8 +72,8 @@ vim /etc/hosts
 source /delta_env/bin/activate
 ```
 
-## 启动SparkSubmit服务
-```shell
+## 启动SparkSubmit服务  
+```shell  
 cd /delta_env
 pyspark --packages io.delta:delta-spark_2.13:4.0.0 \
   --conf "spark.sql.extensions=io.delta.sql.DeltaSparkSessionExtension" \
