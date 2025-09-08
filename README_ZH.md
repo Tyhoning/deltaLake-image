@@ -13,7 +13,7 @@
 - [如何贡献](#如何贡献)
 
 ## 项目介绍
-[DeltaLake](https://github.com/delta-io/delta) Delta Lake 是一个开源的存储层，它构建在现有数据湖（如基于 Hadoop Distributed File System (HDFS)、Amazon S3、Azure Data Lake Storage 等）之上，为数据湖带来了可靠性、事务性和 ACID（原子性、一致性、隔离性、持久性）特性。
+[DeltaLake](https://github.com/delta-io/delta) 是一个开源的存储层，它构建在现有数据湖（如基于 Hadoop Distributed File System (HDFS)、Amazon S3、Azure Data Lake Storage 等）之上，为数据湖带来了可靠性、事务性和 ACID（原子性、一致性、隔离性、持久性）特性。
 
 **核心特性：**
 1. ACID事务保证：Delta Lake通过多版本并发控制（MVCC）机制实现完整的ACID事务。
